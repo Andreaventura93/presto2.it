@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Downloads/egitto"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "presto.it"
+	}
+}

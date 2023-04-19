@@ -1,0 +1,246 @@
+/*SETTINGS FONTS*/
+
+*{
+    font-family: 'Amatic SC', cursive;
+}
+
+
+body{
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+/* SETTING COLORI */
+
+:root{
+
+--primary : #be6c2e ;
+--secondary : #061445 ;
+--accent : #d6b88b ;
+--whiteCustom : #FEFEFE ;
+--BlackCustom : #212121 ;
+
+
+/* BACKGROUND COLOR */
+}
+
+.background-primaryC{
+
+    color: var(--primary);
+}
+
+.background-secondaryC{
+
+color: var(--secondary);
+
+}
+
+.background-accentC{
+
+background-color: var(--accent);
+
+}
+
+.background-whiteCustomC{
+
+color : var(--whiteCustom);
+
+}
+
+.background-BlackCustom{
+
+color : var(--BlackCustom);
+
+}
+
+.headerCustom{
+
+ background:  url('./media/egitto4k.mp4');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+
+
+}
+.btncustom{
+    background-color: var(--primary);
+    color: var(--whiteCustom) ;
+    transition: 0,4s all
+}
+
+.btnCustom:hover{
+background-color: #9B5F30;
+}
+
+.logoA{
+    width: 60px;
+}
+
+#navIcon{
+    transition: 0.5s;
+}
+
+#mainNavbar{
+    transition: 0.4s;
+    height: 60px;
+}
+
+
+.sectionColore{
+    background-color: var(--primary);
+}
+
+.increment-numbers{
+
+    font-size: 100px;
+    color:var(--whiteCustom);
+    font-weight: 900;
+}
+
+/*SEZIONE SWIPER*/
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+
+.card-custom{
+
+height: 200px;
+width: 300px;
+border: 2px solid var(var(--secondary));
+border-radius: 20px;
+
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+/*sezione mouse enter*/
+
+.col-custom{
+
+    border: 3px solid var(--primary);
+    border-radius: 20px;
+    background-color: #caab94;
+    color : #FEFEFE;
+    padding: 20px;
+
+    transition: 0.4s;
+}
+
+
+.col-custom:hover{
+
+    background-color: #d6b88b;
+    color: var(--BlackCustom);
+    transform: scale(1.2);
+}
+
+
+/*mediaquery per scalare più piccola da cellulari le card*/
+
+@media screen and (max-width: 900px) {
+
+    .col-custom:hover{
+
+        background-color: #d6b88b;
+        color: var(--BlackCustom);
+        transform: scale(1.2);
+
+    }
+
+    
+}
+
+/*footer*/
+
+
+.min-h{
+
+    min-height : 50px;
+}
+
+
+
+.footer-link{
+
+
+    text-decoration: none;
+    color: var(--whiteCustom)
+
+
+}
+
+.footer-link:hover{
+
+
+    color: #FEFEFE;
+}
+
+.background-section{
+     height: 10vh;
+    background-image: url(https://cdn.discordapp.com/attachments/1082718729609158656/1094997602807840858/geroglifici.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.chi-siamo{
+
+    padding-right: 50px ;
+    
+    
+
+
+
+
+}
+
+.mousebackground{
+    background-color: var(--primary);
+}
+
+.backgroundfooter{
+
+    background-image: url(./media/background.jpg);
+    background-size: cover;
+}
+
+.prova{
+
+    width: 100%;
+}
+
+.bg-slide{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.swiperSize{
+
+    height: 70vh;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.sfondoswiper{
+    background-color: #be6c2e;
+}
+
+.btncustom{
+    border-radius: 50%;
+   border: #212121 1px solid;
+}
+
+.logoA{
+    padding-top: 15px;
+}
